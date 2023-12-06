@@ -1,0 +1,10 @@
+.show-added-item {
+    transform-origin: top;
+    animation: addItem;
+    animation-duration: 1s;
+}
+
+@keyframes addItem {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+  }
